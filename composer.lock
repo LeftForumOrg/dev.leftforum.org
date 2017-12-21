@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bec46eaaa9fa07a4cbd8c84302f0d275",
+    "content-hash": "246b82a91c99405e529fd9f20667fc76",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -634,6 +634,269 @@
                 "parser"
             ],
             "time": "2014-09-09T13:34:57+00:00"
+        },
+        {
+            "name": "drupal/devel",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/devel",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/devel-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "01f3349ef75f6e21fceef24be9d3d6506ca29647"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1507197844",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Moshe Weitzman",
+                    "homepage": "https://github.com/weitzman",
+                    "email": "weitzman@tejasa.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Hans Salvisberg",
+                    "homepage": "https://www.drupal.org/u/salvis",
+                    "email": "drupal@salvisberg.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Luca Lusso",
+                    "homepage": "https://www.drupal.org/u/lussoluca",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Marco (willzyx)",
+                    "homepage": "https://www.drupal.org/u/willzyx",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "See contributors",
+                    "homepage": "https://www.drupal.org/node/3236/committers"
+                },
+                {
+                    "name": "salvis",
+                    "homepage": "https://www.drupal.org/user/82964"
+                },
+                {
+                    "name": "willzyx",
+                    "homepage": "https://www.drupal.org/user/1043862"
+                }
+            ],
+            "description": "Various blocks, pages, and functions for developers.",
+            "homepage": "http://drupal.org/project/devel",
+            "support": {
+                "source": "http://cgit.drupalcode.org/devel",
+                "issues": "http://drupal.org/project/devel",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/draggableviews",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/draggableviews",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/draggableviews-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "007082c2621b45bd8cf73fe5fdd4d292ee88a458"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1477076039",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "dixon_",
+                    "homepage": "https://www.drupal.org/user/239911"
+                },
+                {
+                    "name": "ginc",
+                    "homepage": "https://www.drupal.org/user/332249"
+                },
+                {
+                    "name": "iStryker",
+                    "homepage": "https://www.drupal.org/user/303676"
+                },
+                {
+                    "name": "podarok",
+                    "homepage": "https://www.drupal.org/user/116002"
+                },
+                {
+                    "name": "sevi",
+                    "homepage": "https://www.drupal.org/user/199290"
+                },
+                {
+                    "name": "ygerasimov",
+                    "homepage": "https://www.drupal.org/user/257311"
+                }
+            ],
+            "description": "Complete rewrite of D7 draggableviews",
+            "homepage": "https://www.drupal.org/project/draggableviews",
+            "support": {
+                "source": "http://cgit.drupalcode.org/draggableviews"
+            }
+        },
+        {
+            "name": "drupal/ds",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/ds",
+                "reference": "8.x-3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ds-8.x-3.1.zip",
+                "reference": "8.x-3.1",
+                "shasum": "1f7fd1bafed43844976d69b8c78513c84362facf"
+            },
+            "require": {
+                "drupal/core": "^8.3"
+            },
+            "require-dev": {
+                "drupal/devel": "*",
+                "drupal/field_group": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.1",
+                    "datestamp": "1495660084",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Bram Goffings",
+                    "homepage": "https://www.drupal.org/user/172527",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Kristof De Jaeger",
+                    "homepage": "http://realize.be/",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Brecht Ceyssens",
+                    "homepage": "https://www.drupal.org/user/591438",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "swentel",
+                    "homepage": "https://www.drupal.org/user/107403"
+                }
+            ],
+            "description": "Extend the display options for every entity type.",
+            "homepage": "https://www.drupal.org/project/ds",
+            "keywords": [
+                "drupal",
+                "layout",
+                "php"
+            ],
+            "support": {
+                "source": "http://git.drupal.org/project/ds.git",
+                "issues": "https://www.drupal.org/project/issues/ds",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/googleanalytics",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/googleanalytics",
+                "reference": "e85f9e0eb2f0afcba583b16454393df6d7ea9f6f"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1360501496",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "frob",
+                    "homepage": "https://www.drupal.org/user/249517"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/googleanalytics",
+            "support": {
+                "source": "http://cgit.drupalcode.org/googleanalytics"
+            },
+            "time": "2013-02-10T06:06:10+00:00"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -2576,20 +2839,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/Mink.git",
-                "reference": "9ea1cebe3dc529ba3861d87c818f045362c40484"
+                "reference": "808702de1a3bebbd97a9339790e313e2aa7525ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/Mink/zipball/9ea1cebe3dc529ba3861d87c818f045362c40484",
-                "reference": "9ea1cebe3dc529ba3861d87c818f045362c40484",
+                "url": "https://api.github.com/repos/minkphp/Mink/zipball/808702de1a3bebbd97a9339790e313e2aa7525ee",
+                "reference": "808702de1a3bebbd97a9339790e313e2aa7525ee",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.1",
-                "symfony/css-selector": "~2.1|~3.0"
+                "symfony/css-selector": "^2.7|^3.0|^4.0"
             },
             "require-dev": {
-                "symfony/phpunit-bridge": "~2.7|~3.0"
+                "symfony/phpunit-bridge": "^3.3|^4.0"
             },
             "suggest": {
                 "behat/mink-browserkit-driver": "extremely fast headless driver for Symfony\\Kernel-based apps (Sf2, Silex)",
@@ -2626,7 +2889,7 @@
                 "testing",
                 "web"
             ],
-            "time": "2017-02-06T09:59:54+00:00"
+            "time": "2017-12-13T13:27:46+00:00"
         },
         {
             "name": "behat/mink-browserkit-driver",
@@ -2798,14 +3061,8 @@
             "version": "8.2.12",
             "source": {
                 "type": "git",
-                "url": "https://github.com/klausi/coder.git",
+                "url": "https://git.drupal.org/project/coder.git",
                 "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/klausi/coder/zipball/984c54a7b1e8f27ff1c32348df69712afd86b17f",
-                "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f",
-                "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
@@ -4255,6 +4512,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/googleanalytics": 20,
         "behat/mink": 20
     },
     "prefer-stable": true,
