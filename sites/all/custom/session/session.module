@@ -1,0 +1,53 @@
+<?php
+
+/**
+ * @file
+ * Global hooks for session module.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function session_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id == 'node_session_edit_form' || $form_id == 'node_session_form') {
+    $user = \Drupal::currentUser()->getRoles();
+    $is_administrator = in_array("administrator", $user);
+
+    // Hide the session_status for non-admins.
+    // @todo replace with a permission.
+    if (!$is_administrator) {
+      unset($form['field_status']);
+    }
+  }
+}
+/**
+  *Implement submit function
+  */
+function hook_form_alter(&$form, &$form_state, $form_id) {
+  if($form_id == 'your_form_id') {
+    $form['#validate'][] = 'mymodule-validate';
+  }
+}
+
+//function to alter the field value
+function session_validate($form, &$form_state) {
+  if (!empty($form['Full Name']) && !empty($form['Email'])){
+	  drupal_set_message(t('hi'));
+  }
+  else{
+	  drupal_set_message(t('no'));
+  }
+}
+
+		/*if text in unregistered presenters box
+		**Seperate into email and name, use the "," as a way to tell
+		**If missing one or the other return error stating to seperate
+		**Look for user account matching email
+		**If none match email
+		**Generate random password
+		**Create user under name and email and password. Username being FN+LN+random number between 1 and 99
+		**send email to the address stating an account was created for them and password
+		**Notify submitter through message email was sent and make sure they claim account
+		**/
