@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "246b82a91c99405e529fd9f20667fc76",
+    "content-hash": "5177d9387f3e0ed1eae548d6452e4e42",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -858,12 +858,18 @@
             }
         },
         {
-            "name": "drupal/googleanalytics",
-            "version": "dev-1.x",
+            "name": "drupal/entityreference_dragdrop",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/googleanalytics",
-                "reference": "e85f9e0eb2f0afcba583b16454393df6d7ea9f6f"
+                "url": "https://git.drupal.org/project/entityreference_dragdrop",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/entityreference_dragdrop-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "7cb540d5dbb6bfcff71ee5afdd292695f94907bc"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -874,11 +880,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.x-dev",
-                    "datestamp": "1360501496",
+                    "version": "8.x-1.0",
+                    "datestamp": "1488135183",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -888,15 +894,79 @@
             ],
             "authors": [
                 {
-                    "name": "frob",
-                    "homepage": "https://www.drupal.org/user/249517"
+                    "name": "phayes",
+                    "homepage": "https://www.drupal.org/user/47098"
+                },
+                {
+                    "name": "sergei_brill",
+                    "homepage": "https://www.drupal.org/user/2306590"
+                },
+                {
+                    "name": "sushyl",
+                    "homepage": "https://www.drupal.org/user/557472"
                 }
             ],
-            "homepage": "https://www.drupal.org/project/googleanalytics",
+            "description": "Provides a nice drag and drop widget for entity reference fields.",
+            "homepage": "https://www.drupal.org/project/entityreference_dragdrop",
             "support": {
-                "source": "http://cgit.drupalcode.org/googleanalytics"
+                "source": "http://cgit.drupalcode.org/entityreference_dragdrop"
+            }
+        },
+        {
+            "name": "drupal/google_analytics",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/google_analytics",
+                "reference": "8.x-2.2"
             },
-            "time": "2013-02-10T06:06:10+00:00"
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/google_analytics-8.x-2.2.zip",
+                "reference": "8.x-2.2",
+                "shasum": "15cd0642ad99f3776a46b702e5012713405a0733"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "require-dev": {
+                "drupal/php": "*",
+                "drupal/token": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.2",
+                    "datestamp": "1506372845",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "hass",
+                    "homepage": "https://www.drupal.org/u/hass"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/49388/committers"
+                }
+            ],
+            "description": "Allows your site to be tracked by Google Analytics by adding a Javascript tracking code to every page.",
+            "homepage": "https://www.drupal.org/project/google_analytics",
+            "support": {
+                "source": "http://git.drupal.org/project/google_analytics.git",
+                "issues": "https://www.drupal.org/project/issues/google_analytics"
+            }
         },
         {
             "name": "easyrdf/easyrdf",
@@ -4512,7 +4582,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/googleanalytics": 20,
         "behat/mink": 20
     },
     "prefer-stable": true,
