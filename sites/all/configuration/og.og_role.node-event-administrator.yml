@@ -1,0 +1,17 @@
+uuid: 7f61c3bf-499e-4893-a920-c038650f9010
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event
+_core:
+  default_config_hash: mIfKkeT3_MQBOlL_Zejqc65VAUh8PuN6ACefDpugLtU
+id: node-event-administrator
+label: Administrator
+weight: 2
+is_admin: true
+group_type: node
+group_bundle: event
+group_id: null
+permissions: {  }
+role_type: null

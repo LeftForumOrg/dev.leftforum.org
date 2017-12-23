@@ -12,26 +12,29 @@ module:
   datetime: 0
   dblog: 0
   devel: 0
-  draggableviews: 0
   dynamic_page_cache: 0
   editor: 0
+  event: 0
   field: 0
+  field_group: 0
   field_ui: 0
   file: 0
   filter: 0
   help: 0
   history: 0
   image: 0
-  layout_discovery: 0
   link: 0
   menu_ui: 0
   node: 0
+  og: 0
+  og_ui: 0
   options: 0
   page_cache: 0
   path: 0
   quickedit: 0
   rdf: 0
   search: 0
+  session: 0
   shortcut: 0
   system: 0
   taxonomy: 0
@@ -41,7 +44,6 @@ module:
   update: 0
   user: 0
   views_ui: 0
-  ds: 1
   menu_link_content: 1
   views: 10
   standard: 1000

@@ -1,0 +1,17 @@
+uuid: 5e654b0d-48b6-48e1-afb8-9ddbee36d879
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event
+_core:
+  default_config_hash: CGZFkyFKC0SLsciQjx2PfClxgJi3i3HJO7ECEKLChcs
+id: node-event-member
+label: Member
+weight: 1
+is_admin: null
+group_type: node
+group_bundle: event
+group_id: null
+permissions: {  }
+role_type: required

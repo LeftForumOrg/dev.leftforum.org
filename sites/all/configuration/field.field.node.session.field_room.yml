@@ -1,0 +1,23 @@
+uuid: 226decca-317c-4835-a68d-af6c657a7848
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_room
+    - node.type.session
+  module:
+    - options
+_core:
+  default_config_hash: _5ylxWRU0HJyQBYBLRvIR59tLZZO8pSdsUZwWODMKn0
+id: node.session.field_room
+field_name: field_room
+entity_type: node
+bundle: session
+label: Room
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

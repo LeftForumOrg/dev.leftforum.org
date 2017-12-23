@@ -1,6 +1,6 @@
-uuid: 71476c66-c71d-4ea9-bb5f-99b80edac8ff
-name: 'Left Forum'
-mail: leftforum@leftforum.org
+uuid: a6b37a25-cb30-4bce-a21c-5a98152150f6
+name: 'Left Forum test site'
+mail: admin@wampserver.invalid
 slogan: ''
 page:
   403: ''
