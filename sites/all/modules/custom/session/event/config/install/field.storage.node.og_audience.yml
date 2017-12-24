@@ -3,7 +3,6 @@ status: true
 dependencies:
   module:
     - node
-    - og
 id: node.og_audience
 field_name: og_audience
 entity_type: node

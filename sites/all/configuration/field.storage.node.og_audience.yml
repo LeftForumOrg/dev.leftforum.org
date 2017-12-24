@@ -1,4 +1,4 @@
-uuid: dc3854aa-e134-4539-b365-14af888ad8aa
+uuid: c515516b-5a7b-4a83-bc97-78a289953a13
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - node
     - og
 _core:
-  default_config_hash: y3hNaYvha8pg5LRDO_MWhZ-XXkh2qjvUm3sIdBCbR6s
+  default_config_hash: TpEr8Fn7vWmD-Ak_WiInKLOHSElyttyf3wX9M3D3Sr0
 id: node.og_audience
 field_name: og_audience
 entity_type: node
