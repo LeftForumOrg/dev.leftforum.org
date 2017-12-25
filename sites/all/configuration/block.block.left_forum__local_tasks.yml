@@ -1,0 +1,22 @@
+uuid: 10c0f36e-5447-452f-a0f4-5ae1eaa1e1d9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - left_forum_
+_core:
+  default_config_hash: RW3pDU8BXj3YbfDG9aV57UZp3ajuWnH7cWP95PLcxRo
+id: left_forum__local_tasks
+theme: left_forum_
+region: content
+weight: 1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
