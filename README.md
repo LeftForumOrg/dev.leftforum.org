@@ -1,9 +1,3 @@
-<style>
-    code {
-        color: red;
-    }
-</style>
-
 # Welcome to the Left Forum Development Team!
 This is Left Forum's development repository. This is where the members of and contributors to our organization actively maintain our site.
 
@@ -97,8 +91,10 @@ Other useful composer commands you might want to look into: 'update' and 'remove
 
 3. Now stage your changes, commit them, and push them onto our repository. If you're using the command-line for git, use the following commands:
 
-    ```git add .
+    ```
+    git add .
     git commit -m "some useful message"
-    git push origin master```
+    git push origin master
+    ```
 
 [drupal]: https://www.drupal.org
