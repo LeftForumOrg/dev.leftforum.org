@@ -1,3 +1,9 @@
+<style>
+    code {
+        color: red;
+    }
+</style>
+
 # Welcome to the Left Forum Development Team!
 This is Left Forum's development repository. This is where the members of and contributors to our organization actively maintain our site.
 
@@ -68,31 +74,31 @@ Maintaining our site requires that everyone actively communicate with each other
 ### Pulling Updates
 1. Pull code and configuration changes from GitHub:
 
-`git pull origin master`
+    `git pull origin master`
 
 2. If any changes have been made to the composer file, you will need to download, remove, or update the necessary packages based on the changes. Luckily, you can do this by running one command:
 
-`composer install`
+    `composer install`
 
 3. If any changes were made to configuration settings, including enabling/disabling of modules or themes, you will need to import those changes to your local site:
 
-`drush config-import --source=sites/all/configuration`
+    `drush config-import --source=sites/all/configuration`
 
 ### Pushing Updates
 1. If you're adding a new package that can be tracked by composer, make sure to update the composer.json file by adding the package as a dependency:
 
-`composer require <vendor>/<package>[:<version_constraint>]`
+    `composer require <vendor>/<package>[:<version_constraint>]`
 
 Other useful composer commands you might want to look into: 'update' and 'remove'
 
 2. If you've made any changes to your configuration, by enabling new modules for example, you must update the configuration directory to stage those changes via git.
 
-`drush config-export --destination=sites/all/configuration`
+    `drush config-export --destination=sites/all/configuration`
 
 3. Now stage your changes, commit them, and push them onto our repository. If you're using the command-line for git, use the following commands:
 
-`git add .`
-`git commit -m "some useful message"`
-`git push origin master`
+    ```git add .
+    git commit -m "some useful message"
+    git push origin master```
 
 [drupal]: https://www.drupal.org
