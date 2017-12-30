@@ -1,0 +1,22 @@
+uuid: ebca498e-a056-49fb-8185-7b54d56f1a04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.presenters
+  module:
+    - text
+id: node.presenters.body
+field_name: body
+entity_type: node
+bundle: presenters
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

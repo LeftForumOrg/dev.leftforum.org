@@ -1,0 +1,34 @@
+uuid: 13a96ca9-7299-4272-b547-602bf364231c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.presenters.body
+    - field.field.node.presenters.field_full_name
+    - node.type.presenters
+  module:
+    - text
+    - user
+id: node.presenters.default
+targetEntityType: node
+bundle: presenters
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_full_name:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

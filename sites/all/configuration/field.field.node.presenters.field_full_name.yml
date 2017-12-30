@@ -1,22 +1,20 @@
-uuid: 8ee21823-2553-4584-b77e-aa3a943e547f
+uuid: a518f4bf-6941-4e23-aa35-1998df64e503
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_full_name
-    - node.type.session
+    - node.type.presenters
   module:
     - text
-_core:
-  default_config_hash: pV2mr8BIzSaJFydIpzmSXlH_TTf4A8hjKogjVof5QDM
-id: node.session.field_full_name
+id: node.presenters.field_full_name
 field_name: field_full_name
 entity_type: node
-bundle: session
+bundle: presenters
 label: 'Full name'
 description: ''
-required: false
-translatable: false
+required: true
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
