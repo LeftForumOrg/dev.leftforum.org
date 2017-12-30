@@ -1,4 +1,4 @@
-uuid: 8f1a6e23-7966-4a86-a0b0-e90af9202c4b
+uuid: 2377a990-11e5-4e6d-8f42-c3be77309a04
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - admin@wampserver.invalid
+  - leftforum@leftforum.org
 reply: ''
 weight: 0
 message: 'Your message has been sent.'
