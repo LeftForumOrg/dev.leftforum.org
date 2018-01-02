@@ -12,7 +12,8 @@
         "drupal/entityreference_dragdrop": "^1.0",
         "drupal/google_analytics": "^2.2",
         "drupal/at_tools": "^3.1",
-        "drupal/adaptivetheme": "^3.0"
+        "drupal/adaptivetheme": "^3.0",
+        "drupal/field_tools": "^1.0@alpha"
     },
     "replace": {
         "drupal/core": "^8.4"
