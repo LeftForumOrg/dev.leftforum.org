@@ -1,0 +1,23 @@
+uuid: fcf3563c-a90d-4d50-b31f-0926a5315f5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_s
+    - node.type.session
+  module:
+    - options
+_core:
+  default_config_hash: tv7EU25gDwdLMFATHG9An-yp1rYVQw75NpOND95OVyI
+id: node.session.field_s
+field_name: field_s
+entity_type: node
+bundle: session
+label: 'Special Needs'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

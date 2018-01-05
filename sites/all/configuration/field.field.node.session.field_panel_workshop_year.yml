@@ -1,0 +1,21 @@
+uuid: 29dccfb6-bd79-469d-8cf9-b93f0c6a5f43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_panel_workshop_year
+    - node.type.session
+id: node.session.field_panel_workshop_year
+field_name: field_panel_workshop_year
+entity_type: node
+bundle: session
+label: 'Panel/Workshop Year'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:entity_form_display'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,19 @@
+uuid: d015e92b-a5f5-45c3-8ed0-bf43f9ad0d5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_other_special_needs
+field_name: field_other_special_needs
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

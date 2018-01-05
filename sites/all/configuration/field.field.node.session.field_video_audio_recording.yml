@@ -1,0 +1,21 @@
+uuid: 1c4dc0be-ac8e-4330-bf65-f84bb54c01e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_audio_recording
+    - node.type.session
+  module:
+    - options
+id: node.session.field_video_audio_recording
+field_name: field_video_audio_recording
+entity_type: node
+bundle: session
+label: 'Video/Audio recording'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

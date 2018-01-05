@@ -1,0 +1,19 @@
+uuid: 93258979-efa5-40b5-a019-5022d291921e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_reading_list
+field_name: field_reading_list
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: 48ed1031-af90-4160-828d-c1ba8803db39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_panel_workshop_topics
+    - node.type.session
+  module:
+    - options
+id: node.session.field_panel_workshop_topics
+field_name: field_panel_workshop_topics
+entity_type: node
+bundle: session
+label: 'Panel/Workshop Topics'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
