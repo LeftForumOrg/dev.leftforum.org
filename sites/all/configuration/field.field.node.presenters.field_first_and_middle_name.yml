@@ -1,0 +1,19 @@
+uuid: ac0a75a6-b846-4816-89cf-be6f1d7a8f9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_first_and_middle_name
+    - node.type.presenters
+id: node.presenters.field_first_and_middle_name
+field_name: field_first_and_middle_name
+entity_type: node
+bundle: presenters
+label: 'First and Middle Name(s)'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

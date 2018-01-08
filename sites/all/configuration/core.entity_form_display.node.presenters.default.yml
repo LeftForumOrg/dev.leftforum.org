@@ -1,0 +1,67 @@
+uuid: 838bd635-dea1-4dbc-bf7f-2ed5a89883f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.presenters.field_affiliation
+    - field.field.node.presenters.field_biography
+    - field.field.node.presenters.field_first_and_middle_name
+    - field.field.node.presenters.field_last_name
+    - field.field.node.presenters.field_photo
+    - image.style.thumbnail
+    - node.type.presenters
+  module:
+    - image
+id: node.presenters.default
+targetEntityType: node
+bundle: presenters
+mode: default
+content:
+  field_affiliation:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_biography:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_first_and_middle_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_last_name:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_photo:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  title: true
+  uid: true

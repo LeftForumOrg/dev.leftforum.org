@@ -1,0 +1,19 @@
+uuid: ecc6c1d9-2920-456f-8ba3-9e2254bb0d6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_biography
+    - node.type.presenters
+id: node.presenters.field_biography
+field_name: field_biography
+entity_type: node
+bundle: presenters
+label: Biography
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
