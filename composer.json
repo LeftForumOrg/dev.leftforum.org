@@ -17,13 +17,15 @@
         "drupal/at_tools": "^3.1",
         "drupal/bootstrap": "^3.7",
         "drupal/core": "~8.4",
-        "drupal/devel": "^1.2",
         "drupal/draggableviews": "^1.0",
         "drupal/ds": "^3.1",
         "drupal/entityreference_dragdrop": "^1.0",
         "drupal/google_analytics": "^2.2",
         "webflo/drupal-finder": "^1.0.0",
         "wikimedia/composer-merge-plugin": "^1.4"
+    },
+    "require-dev": {
+        "drupal/devel": "^1.2"
     },
     "conflict": {
         "drupal/drupal": "*"
