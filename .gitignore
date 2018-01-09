@@ -12,4 +12,5 @@
 # core
 
 # Core's dependencies are managed with Composer.
+/core
 /vendor

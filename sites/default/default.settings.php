@@ -249,9 +249,7 @@ $databases = array();
  *   );
  * @endcode
  */
-$config_directories = array(
-  CONFIG_SYNC_DIRECTORY => 'sites/all/configuration'
-);
+$config_directories = array();
 
 /**
  * Settings:
