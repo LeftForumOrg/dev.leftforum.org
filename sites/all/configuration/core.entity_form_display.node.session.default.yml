@@ -7,10 +7,8 @@ dependencies:
     - field.field.node.session.field_audio_video_equipment_usag
     - field.field.node.session.field_co_presenter_s_
     - field.field.node.session.field_diversity_of_persepctives
-    - field.field.node.session.field_email
     - field.field.node.session.field_experience_level
     - field.field.node.session.field_files
-    - field.field.node.session.field_full_name
     - field.field.node.session.field_host_sponsor
     - field.field.node.session.field_other_special_needs
     - field.field.node.session.field_panel_image
@@ -33,29 +31,6 @@ dependencies:
     - text
 third_party_settings:
   field_group:
-    group_unregistered_presenters:
-      children:
-        - field_full_name
-        - field_email
-      parent_name: group_presenters
-      weight: 12
-      format_type: details
-      format_settings:
-        label: 'unregistered presenters'
-        formatter: closed
-        id: ''
-        classes: ''
-        required_fields: false
-        description: ''
-        open: false
-        element: div
-        show_label: false
-        label_element: h3
-        effect: none
-        speed: fast
-        attributes: ''
-      label: 'unregistered presenters'
-      region: content
     group__panel_proposal_workshop_i:
       children:
         - body
@@ -89,7 +64,6 @@ third_party_settings:
     group_presenters:
       children:
         - field_co_presenter_s_
-        - group_unregistered_presenters
       parent_name: ''
       weight: 2
       format_type: fieldset
@@ -156,28 +130,12 @@ content:
     third_party_settings: {  }
     type: options_select
     region: content
-  field_email:
-    weight: 27
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: email_default
-    region: content
   field_files:
     weight: 34
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
-    region: content
-  field_full_name:
-    weight: 26
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textfield
     region: content
   field_host_sponsor:
     weight: 30

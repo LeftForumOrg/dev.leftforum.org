@@ -8,14 +8,13 @@ dependencies:
     - field.field.node.session.field_audio_video_equipment_usag
     - field.field.node.session.field_co_presenter_s_
     - field.field.node.session.field_diversity_of_persepctives
-    - field.field.node.session.field_email
     - field.field.node.session.field_experience_level
     - field.field.node.session.field_files
-    - field.field.node.session.field_full_name
     - field.field.node.session.field_host_sponsor
     - field.field.node.session.field_other_special_needs
     - field.field.node.session.field_panel_image
     - field.field.node.session.field_panel_workshop_topics
+    - field.field.node.session.field_panel_workshop_year
     - field.field.node.session.field_reading_list
     - field.field.node.session.field_room
     - field.field.node.session.field_s
@@ -50,15 +49,14 @@ hidden:
   field_audio_video_equipment_usag: true
   field_co_presenter_s_: true
   field_diversity_of_persepctives: true
-  field_email: true
   field_experience_level: true
   field_files: true
-  field_full_name: true
   field_host_sponsor: true
   field_image: true
   field_other_special_needs: true
   field_panel_image: true
   field_panel_workshop_topics: true
+  field_panel_workshop_year: true
   field_reading_list: true
   field_room: true
   field_s: true

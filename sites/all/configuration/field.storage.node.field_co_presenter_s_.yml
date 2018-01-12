@@ -4,7 +4,6 @@ status: true
 dependencies:
   module:
     - node
-    - user
 _core:
   default_config_hash: '-U00BaNI7nNys4mJdt6dC9kOSEBNcGXQv3y9M58bVDk'
 id: node.field_co_presenter_s_
@@ -12,7 +11,7 @@ field_name: field_co_presenter_s_
 entity_type: node
 type: entity_reference
 settings:
-  target_type: user
+  target_type: node
 module: core
 locked: false
 cardinality: -1

@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_co_presenter_s_
+    - node.type.presenters
     - node.type.session
 _core:
   default_config_hash: 8MxZcAUWuveFL3M3VtVG4hyVFnpV1WSnmimJUwpp6ak
@@ -18,13 +19,12 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:user'
+  handler: 'default:node'
   handler_settings:
-    include_anonymous: true
-    filter:
-      type: _none
-    target_bundles: null
+    target_bundles:
+      presenters: presenters
     sort:
       field: _none
-    auto_create: false
+    auto_create: true
+    auto_create_bundle: ''
 field_type: entity_reference
