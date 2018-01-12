@@ -8,7 +8,7 @@ dependencies:
   module:
     - link
 _core:
-  default_config_hash: 6MB8TvrO1g_CWWAHfgUxfcrE3kgIRWQZHyiZauhMxSU
+  default_config_hash: Vnqd51x1pFVpY3UUKSWU0zy3Zrb4l5zuV0vI414jpxQ
 id: node.session.field_slides_link
 field_name: field_slides_link
 entity_type: node

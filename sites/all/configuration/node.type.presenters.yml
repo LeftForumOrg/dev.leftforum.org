@@ -1,4 +1,4 @@
-uuid: 32dad72d-5c26-454d-86b9-875c856ab48a
+uuid: 014ab6c0-c1ee-4a0c-b3f5-78b5ac28708d
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
+_core:
+  default_config_hash: vyD3vMRSwRKm8miJL9N3dgftzRsAytUa080ZPYWfAls
 name: Presenters
 type: presenters
 description: ''

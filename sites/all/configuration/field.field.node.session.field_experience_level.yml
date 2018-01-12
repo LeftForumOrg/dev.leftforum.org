@@ -8,7 +8,7 @@ dependencies:
   module:
     - options
 _core:
-  default_config_hash: lO564iP4tWQWywQE0RYMO-cAlVZMHmDr_CVNgb1kipo
+  default_config_hash: Z_5ftXr1fdpcQAVQpYr1SDlVAMOhQ5ESgo5Z_lsq59E
 id: node.session.field_experience_level
 field_name: field_experience_level
 entity_type: node

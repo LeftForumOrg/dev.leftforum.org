@@ -1,0 +1,22 @@
+uuid: 07a42ad1-49fe-4e2e-a3a6-f17c787795d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - left_forum_
+_core:
+  default_config_hash: puFpCsU3F8tqEon0_nBfoWoC_1Ih3ZFx-EDsQGFCTMM
+id: left_forum__search
+theme: left_forum_
+region: sidebar_second
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

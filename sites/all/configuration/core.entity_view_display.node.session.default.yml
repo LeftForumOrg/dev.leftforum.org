@@ -1,138 +1,42 @@
-uuid: 6fc65fba-c7eb-431a-a044-4327700a94f2
+uuid: f0db0c80-7fcf-4754-a860-6b0810c8e65a
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.session.body
-    - field.field.node.session.field_audio_video_equipment_usag
-    - field.field.node.session.field_co_presenter_s_
-    - field.field.node.session.field_diversity_of_persepctives
+    - field.field.node.session.field_co_
     - field.field.node.session.field_experience_level
     - field.field.node.session.field_files
-    - field.field.node.session.field_host_sponsor
-    - field.field.node.session.field_other_special_needs
-    - field.field.node.session.field_panel_image
-    - field.field.node.session.field_panel_workshop_topics
-    - field.field.node.session.field_panel_workshop_year
-    - field.field.node.session.field_reading_list
     - field.field.node.session.field_room
     - field.field.node.session.field_s
     - field.field.node.session.field_session_track
     - field.field.node.session.field_slides_link
     - field.field.node.session.field_status
-    - field.field.node.session.field_time
-    - field.field.node.session.field_video_audio_recording
     - node.type.session
   module:
-    - field_group
-    - image
-    - options
-    - text
     - user
-third_party_settings:
-  field_group:
-    group_panel_proposal_workshop_in:
-      children:
-        - field_panel_workshop_year
-        - body
-        - field_host_sponsor
-        - field_panel_workshop_topics
-        - field_panel_image
-      parent_name: ''
-      weight: 1
-      format_type: fieldset
-      format_settings:
-        id: ''
-        classes: ''
-        description: ''
-      label: 'Panel Proposal/Workshop Information'
-    group_special_needs:
-      children:
-        - field_video_audio_recording
-        - field_audio_video_equipment_usag
-        - field_s
-        - field_other_special_needs
-      parent_name: ''
-      weight: 12
-      format_type: fieldset
-      format_settings:
-        id: ''
-        classes: ''
-        description: ''
-      label: 'Special Needs'
 id: node.session.default
 targetEntityType: node
 bundle: session
 mode: default
 content:
-  body:
-    type: text_default
-    weight: 3
-    region: content
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-  field_diversity_of_persepctives:
-    weight: 14
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
-  field_host_sponsor:
-    weight: 4
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_panel_image:
-    weight: 6
-    label: above
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
-    region: content
-  field_panel_workshop_topics:
-    weight: 5
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
-    region: content
-  field_panel_workshop_year:
-    weight: 15
+  field_co_:
+    weight: 101
     label: above
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_reading_list:
-    weight: 13
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
   links:
-    weight: 0
+    weight: 100
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
-  field_audio_video_equipment_usag: true
-  field_co_presenter_s_: true
+  body: true
   field_experience_level: true
   field_files: true
-  field_other_special_needs: true
   field_room: true
   field_s: true
   field_session_track: true
   field_slides_link: true
   field_status: true
-  field_time: true
-  field_video_audio_recording: true

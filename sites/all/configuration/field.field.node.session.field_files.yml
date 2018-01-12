@@ -8,7 +8,7 @@ dependencies:
   module:
     - file
 _core:
-  default_config_hash: _54t8rXajWEVsxC9xskEo7xWR2ScQk6OpO5uB2jz_bk
+  default_config_hash: O2KRvuuMxThG5AvYwRyIWDqV5KnOwdNnsYCuTdI9t7U
 id: node.session.field_files
 field_name: field_files
 entity_type: node

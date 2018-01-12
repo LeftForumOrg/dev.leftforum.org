@@ -1,0 +1,22 @@
+uuid: ca9217a5-1107-4538-81a2-2e5f6f116e7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - left_forum_
+_core:
+  default_config_hash: byafE7tUegc4YjueKJBBXC3WSjq4xz_erwT_AwcdYvM
+id: left_forum__help
+theme: left_forum_
+region: content
+weight: 2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

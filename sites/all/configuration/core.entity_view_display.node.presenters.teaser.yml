@@ -1,28 +1,30 @@
-uuid: 0e2bac6d-ad37-47b4-80ec-59ada0f09508
+uuid: a756f5ff-143c-4760-9544-4a79f3e73caa
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.presenters.field_affiliation
-    - field.field.node.presenters.field_biography
-    - field.field.node.presenters.field_first_and_middle_name
-    - field.field.node.presenters.field_last_name
-    - field.field.node.presenters.field_photo
+    - field.field.node.presenters.body
     - node.type.presenters
   module:
+    - text
     - user
+_core:
+  default_config_hash: iS7Whd-ihMeryd2MjcBDixyUrSnVMAFbvZ6tis_qMc4
 id: node.presenters.teaser
 targetEntityType: node
 bundle: presenters
 mode: teaser
 content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
   links:
     weight: 100
     region: content
-hidden:
-  field_affiliation: true
-  field_biography: true
-  field_first_and_middle_name: true
-  field_last_name: true
-  field_photo: true
+hidden: {  }

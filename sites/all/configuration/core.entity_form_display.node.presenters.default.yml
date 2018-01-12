@@ -1,67 +1,77 @@
-uuid: 838bd635-dea1-4dbc-bf7f-2ed5a89883f5
+uuid: 2c9398d4-368c-432b-8d32-88a279e9bf4b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.presenters.field_affiliation
-    - field.field.node.presenters.field_biography
-    - field.field.node.presenters.field_first_and_middle_name
-    - field.field.node.presenters.field_last_name
-    - field.field.node.presenters.field_photo
-    - image.style.thumbnail
+    - field.field.node.presenters.body
     - node.type.presenters
   module:
-    - image
+    - path
+    - text
+_core:
+  default_config_hash: T5nMCoJZFxnzUN4iYRYIsR7pVpgk4Cx8BgHm6UljIvI
 id: node.presenters.default
 targetEntityType: node
 bundle: presenters
 mode: default
 content:
-  field_affiliation:
-    weight: 2
+  body:
+    type: text_textarea_with_summary
+    weight: 121
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_biography:
-    weight: 3
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
     settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textarea
-    region: content
-  field_first_and_middle_name:
-    weight: 0
-    settings:
+      match_operator: CONTAINS
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
     region: content
-  field_last_name:
-    weight: 1
-    settings:
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_photo:
-    weight: 4
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-    region: content
-hidden:
-  created: true
-  path: true
-  promote: true
-  status: true
-  sticky: true
-  title: true
-  uid: true
+hidden: {  }

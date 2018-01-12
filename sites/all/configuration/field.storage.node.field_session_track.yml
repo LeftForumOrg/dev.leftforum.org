@@ -6,7 +6,7 @@ dependencies:
     - node
     - taxonomy
 _core:
-  default_config_hash: MMNFuwhCUvoM5Wf_fzsSfpfZl_1TW4idDfG6BORiZdg
+  default_config_hash: GUlOUwfT8FRTfZYi3SrfEkpN8xYNZDgNQNCbcSuNwd0
 id: node.field_session_track
 field_name: field_session_track
 entity_type: node

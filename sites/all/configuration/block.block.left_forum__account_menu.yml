@@ -1,0 +1,26 @@
+uuid: 60ba6d45-f9e9-45e4-ac8c-bd9ab61b67ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - left_forum_
+_core:
+  default_config_hash: 3nOvL_UkB7_90y5lOEwviFLTVRNvk0fQuiFWo0hW_JQ
+id: left_forum__account_menu
+theme: left_forum_
+region: leaderboard
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

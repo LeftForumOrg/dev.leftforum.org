@@ -10,7 +10,7 @@ third_party_settings:
       - main
     parent: 'main:'
 _core:
-  default_config_hash: Xn959QfdKxY1Clw_jax7rxABVutb1Smo0eMh9GvawUA
+  default_config_hash: RkugXLGpLNUbmP200VopbV1dDfY5C4IY5g58feJm5Rk
 name: Session
 type: session
 description: 'Use this content type to propose sessions at the event. Users can vote on proposed sessions and add sessions to their individual session agendas.'

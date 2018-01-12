@@ -8,7 +8,7 @@ dependencies:
   module:
     - options
 _core:
-  default_config_hash: tv7EU25gDwdLMFATHG9An-yp1rYVQw75NpOND95OVyI
+  default_config_hash: zYYSDXj4aCqNovji5yHu8U98DOp-dgiNb42spzJObvU
 id: node.session.field_s
 field_name: field_s
 entity_type: node

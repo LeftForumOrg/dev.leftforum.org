@@ -1,0 +1,20 @@
+uuid: a1909202-3c9d-43bb-9b47-f4fb4a89ca8a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - left_forum_
+_core:
+  default_config_hash: qv4pGiUPAKzXj0RQqs85oIbf263GZwPEUTOarq0V-eM
+id: left_forum__local_actions
+theme: left_forum_
+region: content
+weight: 3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

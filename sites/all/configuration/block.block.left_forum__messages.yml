@@ -1,0 +1,22 @@
+uuid: 34590af4-8dde-4c71-ba69-a97edeec1359
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - left_forum_
+_core:
+  default_config_hash: KUVNb_6zNrz2UjqjUP-62gHs20Y0xdC2PuLzQMgXaZM
+id: left_forum__messages
+theme: left_forum_
+region: highlighted
+weight: -100
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

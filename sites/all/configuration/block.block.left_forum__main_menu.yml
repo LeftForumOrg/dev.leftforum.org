@@ -1,0 +1,26 @@
+uuid: 3c194217-1667-4e09-ac72-857980388212
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - left_forum_
+_core:
+  default_config_hash: OIFA31tsz9l_UHGP9xyQN-eVslS7xurumWmNVN0Ey5I
+id: left_forum__main_menu
+theme: left_forum_
+region: navbar
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main menu'
+  provider: system
+  label_display: 1
+  level: 1
+  depth: 0
+visibility: {  }

@@ -6,7 +6,7 @@ dependencies:
     - node
     - options
 _core:
-  default_config_hash: APp2E2fLnEQe9WHNB-6sBN43RcJxXb4WSxppIBCDALk
+  default_config_hash: M1M9tVwdNU3rECujHHagihSRpvzwBVdrZQtDWZ6UXZw
 id: node.field_s
 field_name: field_s
 entity_type: node

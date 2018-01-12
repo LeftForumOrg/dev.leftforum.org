@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: yvzELIEn6qp1Pe3ODth4bOG-scXBZiKpDtNBkCk3oE0
+  default_config_hash: j__8zc501vm4U1NsZObZ68UdIf9B5qxtaJph2lVu_Kw
 name: 'Session Track'
 vid: session_track
 description: 'Different types of sessions. '

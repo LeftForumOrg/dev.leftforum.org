@@ -1,0 +1,20 @@
+name: Session
+description: 'Provides Session content type and related configuration. Use this content type to propose sessions at the event. Users can vote on proposed sessions and add sessions to their individual session agendas.'
+type: module
+core: 8.x
+dependencies:
+  - captcha
+  - comment
+  - field
+  - file
+  - image
+  - link
+  - menu_ui
+  - node
+  - options
+  - path
+  - sessions_and_recaptcha_presenters
+  - taxonomy
+  - text
+  - user
+package: Sessions
