@@ -17,4 +17,5 @@ dependencies:
   - taxonomy
   - text
   - user
+  - views
 package: Sessions

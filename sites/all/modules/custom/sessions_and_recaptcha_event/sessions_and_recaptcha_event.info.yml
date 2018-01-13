@@ -4,3 +4,13 @@ core: 8.x
 package: Sessions
 dependencies:
   - captcha
+  - datetime
+  - field
+  - file
+  - image
+  - menu_ui
+  - node
+  - og
+  - path
+  - text
+  - user
