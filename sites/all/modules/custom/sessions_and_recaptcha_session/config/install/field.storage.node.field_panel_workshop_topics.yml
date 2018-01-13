@@ -1,0 +1,116 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_panel_workshop_topics
+field_name: field_panel_workshop_topics
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Africa
+      label: Africa
+    -
+      value: 'Asia, India, China'
+      label: 'Asia, India, China'
+    -
+      value: Art
+      label: Art
+    -
+      value: 'Caribbean Basin'
+      label: 'Caribbean Basin'
+    -
+      value: China
+      label: China
+    -
+      value: 'Culture and Everyday Life'
+      label: 'Culture and Everyday Life'
+    -
+      value: Economics
+      label: Economics
+    -
+      value: Education
+      label: Education
+    -
+      value: Environment
+      label: Environment
+    -
+      value: Europe
+      label: Europe
+    -
+      value: Food
+      label: Food
+    -
+      value: 'Gender and Sexuality'
+      label: 'Gender and Sexuality'
+    -
+      value: Health
+      label: Health
+    -
+      value: Housing
+      label: Housing
+    -
+      value: India
+      label: India
+    -
+      value: Indigenous
+      label: Indigenous
+    -
+      value: Immigration
+      label: Immigration
+    -
+      value: International
+      label: International
+    -
+      value: Labor
+      label: Labor
+    -
+      value: 'Latin America'
+      label: 'Latin America'
+    -
+      value: 'Marxism, Anarchism and Theory'
+      label: 'Marxism, Anarchism and Theory'
+    -
+      value: Media
+      label: Media
+    -
+      value: 'Middle East'
+      label: 'Middle East'
+    -
+      value: 'Political And Social Movements'
+      label: 'Political And Social Movements'
+    -
+      value: 'Political Economy And The Current Crisis'
+      label: 'Political Economy And The Current Crisis'
+    -
+      value: 'Prison-Industrial Complex'
+      label: 'Prison-Industrial Complex'
+    -
+      value: Race
+      label: Race
+    -
+      value: Religion
+      label: Religion
+    -
+      value: 'Southeast Asia'
+      label: 'Southeast Asia'
+    -
+      value: 'U.S. Politics'
+      label: 'U.S. Politics'
+    -
+      value: War/Anti-War
+      label: War/Anti-War
+    -
+      value: Other
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

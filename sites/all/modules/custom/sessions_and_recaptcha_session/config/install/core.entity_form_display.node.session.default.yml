@@ -3,19 +3,88 @@ status: true
 dependencies:
   config:
     - field.field.node.session.body
+    - field.field.node.session.field_audio_video_equipment_usag
     - field.field.node.session.field_co_
+    - field.field.node.session.field_diversity_of_persepctives
     - field.field.node.session.field_experience_level
     - field.field.node.session.field_files
+    - field.field.node.session.field_host_sponsor
+    - field.field.node.session.field_other_special_needs
+    - field.field.node.session.field_panel_image
+    - field.field.node.session.field_panel_workshop_topics
+    - field.field.node.session.field_panel_workshop_year
+    - field.field.node.session.field_reading_list
     - field.field.node.session.field_room
     - field.field.node.session.field_s
     - field.field.node.session.field_session_track
     - field.field.node.session.field_slides_link
     - field.field.node.session.field_status
+    - field.field.node.session.field_time
+    - field.field.node.session.field_video_audio_recording
     - node.type.session
   module:
+    - field_group
     - file
     - path
     - text
+third_party_settings:
+  field_group:
+    group__panel_proposal_workshop_i:
+      children:
+        - body
+        - field_host_sponsor
+        - field_panel_workshop_topics
+        - field_panel_image
+      parent_name: ''
+      weight: 1
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'Panel Proposal/Workshop Information'
+    group_special_needs:
+      children:
+        - field_video_audio_recording
+        - field_audio_video_equipment_usag
+        - field_s
+        - field_other_special_needs
+      parent_name: ''
+      weight: 4
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'Special Needs'
+    group_presenters:
+      children:
+        - field_co_
+      parent_name: ''
+      weight: 2
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: Presenters
+    group_more_panel_workshop_inform:
+      children:
+        - field_reading_list
+        - field_files
+        - field_diversity_of_persepctives
+      parent_name: ''
+      weight: 3
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'More Panel/Workshop Information'
 id: node.session.default
 targetEntityType: node
 bundle: session
@@ -140,4 +209,14 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_audio_video_equipment_usag: true
+  field_diversity_of_persepctives: true
+  field_host_sponsor: true
+  field_other_special_needs: true
+  field_panel_image: true
+  field_panel_workshop_topics: true
+  field_panel_workshop_year: true
+  field_reading_list: true
   field_slides_link: true
+  field_time: true
+  field_video_audio_recording: true

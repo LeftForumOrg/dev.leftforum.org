@@ -2,21 +2,19 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_room
+    - field.storage.node.field_audio_video_equipment_usag
     - node.type.session
   module:
     - options
-id: node.session.field_room
-field_name: field_room
+id: node.session.field_audio_video_equipment_usag
+field_name: field_audio_video_equipment_usag
 entity_type: node
 bundle: session
-label: Room
+label: 'Audio/video equipment usage'
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings:
-  handler: default
-  handler_settings: {  }
+settings: {  }
 field_type: list_string

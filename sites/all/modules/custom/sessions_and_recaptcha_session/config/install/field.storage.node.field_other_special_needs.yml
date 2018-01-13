@@ -3,12 +3,12 @@ status: true
 dependencies:
   module:
     - node
-id: node.field_room
-field_name: field_room
+id: node.field_other_special_needs
+field_name: field_other_special_needs
 entity_type: node
-type: entity_reference
+type: string_long
 settings:
-  target_type: entity_form_display
+  case_sensitive: false
 module: core
 locked: false
 cardinality: 1

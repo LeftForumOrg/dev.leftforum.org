@@ -6,6 +6,7 @@ dependencies:
   - captcha
   - comment
   - field
+  - field_group
   - file
   - image
   - link

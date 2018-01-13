@@ -3,8 +3,8 @@ status: true
 dependencies:
   module:
     - node
-id: node.field_room
-field_name: field_room
+id: node.field_time
+field_name: field_time
 entity_type: node
 type: entity_reference
 settings:

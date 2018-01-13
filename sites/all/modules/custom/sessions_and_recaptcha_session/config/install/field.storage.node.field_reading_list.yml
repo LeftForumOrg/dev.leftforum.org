@@ -3,13 +3,13 @@ status: true
 dependencies:
   module:
     - node
-id: node.field_room
-field_name: field_room
+    - text
+id: node.field_reading_list
+field_name: field_reading_list
 entity_type: node
-type: entity_reference
-settings:
-  target_type: entity_form_display
-module: core
+type: text_long
+settings: {  }
+module: text
 locked: false
 cardinality: 1
 translatable: true
