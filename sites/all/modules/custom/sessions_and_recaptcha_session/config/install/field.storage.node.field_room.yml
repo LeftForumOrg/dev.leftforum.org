@@ -3,13 +3,15 @@ status: true
 dependencies:
   module:
     - node
+    - options
 id: node.field_room
 field_name: field_room
 entity_type: node
-type: entity_reference
+type: list_string
 settings:
-  target_type: entity_form_display
-module: core
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
 locked: false
 cardinality: 1
 translatable: true
