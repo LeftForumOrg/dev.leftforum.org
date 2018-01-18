@@ -1,3 +1,6 @@
+This is a beta version o Drupal 7's "Organic Groups". It is currently used to handle dependencies from the sessions module, a module that required this version instead of drupal 8's official redeveloped one called "Groups".
+
+
 ![Status](https://travis-ci.org/Gizra/og.svg?branch=8.x-1.x)
 
 ## DESCRIPTION

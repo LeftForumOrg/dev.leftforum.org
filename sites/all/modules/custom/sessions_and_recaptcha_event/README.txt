@@ -1,0 +1,1 @@
+Description:Events is a rip from Drupal 7's Conference Organizing Distribution (COD):https://www.drupal.org/project/cod. Events are the backbone of organizing a conference. Introduced as a content type, it allows the event organizer to set up the event, set a date, load a relevant image of the event, and put a description on it. It interacts with Presenters and Sessions

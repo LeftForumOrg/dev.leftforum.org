@@ -1,0 +1,1 @@
+Description: Presenters is a content type with the main functionality of collecting a pseudo-database of all co-presenters and presenters of a session. The content type session has a field called co-presenters, which directly searches through this content type, and adds the relevant name to that session form.

@@ -1,0 +1,1 @@
+Session is the main backbone of the Conference Organization Distribution module. Sessions allows approved users to submit a form for a presentation they would like to do at an event. It allows the main presenter to add co-presenters through the presenter content type, allows special requests, brief descriptions, relevant links and files, all through the content type session.

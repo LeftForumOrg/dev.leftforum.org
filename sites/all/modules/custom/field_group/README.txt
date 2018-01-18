@@ -1,8 +1,4 @@
-History:
-  Field_group was originally written when drupal 7 was released. For drupal 6, the module is
-  located in the CCK module (http://drupal.org/project/cck).
-  As drupal core has a fields API drupal > 6, the field_group module
-  is considered a contribution.
+
 
 Description:
   field_group is a module that will group a set of fields. In Drupal8,
@@ -48,3 +44,5 @@ swentel - http://drupal.org/user/107403
 -- INSPIRATORS --
 
 yched - http://drupal.org/user/39567
+
+It is currently used for content types such as sessions for better form view readability.

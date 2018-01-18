@@ -1,0 +1,1 @@
+Users can have a schedule that shows upcoming events and sessions. The user can subscribe to an event, and then that event will appear on a schedule in their user page.
