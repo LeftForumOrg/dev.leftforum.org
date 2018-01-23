@@ -3,12 +3,32 @@
     "description": "Drupal is an open source content management platform powering millions of websites and applications.",
     "type": "project",
     "license": "GPL-2.0+",
-    "repositories": [
-        {
+    "repositories": {
+        "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "makhnovskiy": {
+            "type": "package",
+            "package": {
+                "name": "makhnovskiy/youtube_import",
+                "type": "drupal-module",
+                "description": "",
+                "version": "dev-master",
+                "license": "GPL-2.0",
+                "source": {
+                    "type": "git",
+                    "reference": "master",
+                    "url": "https://github.com/makhnovskiy/YouTube-Import-Drupal-8.git"
+                },
+                "require": {
+                    "drupal/core": "^8.4",
+                    "drupal/entity": "^1.0",
+                    "ext-curl": "*"
+                }
+            }
         }
-    ],
+    },
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
@@ -25,6 +45,7 @@
         "drupal/features": "^3.5",
         "drupal/google_analytics": "^2.2",
         "drupal/recaptcha": "^2.2",
+        "drupal/youtube": "^1.0@beta",
         "webflo/drupal-finder": "^1.0.0",
         "wikimedia/composer-merge-plugin": "^1.4"
     },
