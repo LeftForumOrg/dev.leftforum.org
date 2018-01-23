@@ -1,0 +1,34 @@
+uuid: bbef91ed-074f-4bc9-b0d2-9161781cb4d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.presenters.body
+    - field.field.node.presenters.field_affiliation
+    - field.field.node.presenters.field_biography
+    - field.field.node.presenters.field_photo
+    - node.type.presenters
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: afWk7718ASKNE_lgEa6jxVeNaJgbMlXi7c0soLU3rjk
+id: node.presenters.default
+targetEntityType: node
+bundle: presenters
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_affiliation: true
+  field_biography: true
+  field_photo: true

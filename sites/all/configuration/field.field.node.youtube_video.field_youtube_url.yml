@@ -1,0 +1,21 @@
+uuid: 59743f47-d414-4ce1-8aed-5565b885debe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_youtube_url
+    - node.type.youtube_video
+  module:
+    - youtube
+id: node.youtube_video.field_youtube_url
+field_name: field_youtube_url
+entity_type: node
+bundle: youtube_video
+label: URL
+description: 'Insert link to a YouTube video here.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: youtube

@@ -1,0 +1,20 @@
+uuid: 32dad72d-5c26-454d-86b9-875c856ab48a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: vyD3vMRSwRKm8miJL9N3dgftzRsAytUa080ZPYWfAls
+name: Presenters
+type: presenters
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

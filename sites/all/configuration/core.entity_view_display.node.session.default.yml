@@ -1,0 +1,90 @@
+uuid: 6fc65fba-c7eb-431a-a044-4327700a94f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.session.body
+    - field.field.node.session.field_audio_video_equipment_usag
+    - field.field.node.session.field_co_
+    - field.field.node.session.field_diversity_of_persepctives
+    - field.field.node.session.field_experience_level
+    - field.field.node.session.field_files
+    - field.field.node.session.field_host_sponsor
+    - field.field.node.session.field_other_special_needs
+    - field.field.node.session.field_panel_image
+    - field.field.node.session.field_panel_workshop_topics
+    - field.field.node.session.field_panel_workshop_year
+    - field.field.node.session.field_reading_list
+    - field.field.node.session.field_s
+    - field.field.node.session.field_session_track
+    - field.field.node.session.field_slides_link
+    - field.field.node.session.field_status
+    - field.field.node.session.field_video_audio_recording
+    - node.type.session
+  module:
+    - field_group
+    - user
+third_party_settings:
+  field_group:
+    group_panel_proposal_workshop_in:
+      children:
+        - field_panel_workshop_year
+        - body
+        - field_host_sponsor
+        - field_panel_workshop_topics
+        - field_panel_image
+      parent_name: ''
+      weight: 1
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+      label: 'Panel Proposal/Workshop Information'
+    group_special_needs:
+      children:
+        - field_video_audio_recording
+        - field_audio_video_equipment_usag
+        - field_s
+        - field_other_special_needs
+      parent_name: ''
+      weight: 12
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+      label: 'Special Needs'
+id: node.session.default
+targetEntityType: node
+bundle: session
+mode: default
+content:
+  field_co_:
+    weight: 101
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_audio_video_equipment_usag: true
+  field_diversity_of_persepctives: true
+  field_experience_level: true
+  field_files: true
+  field_host_sponsor: true
+  field_other_special_needs: true
+  field_panel_image: true
+  field_panel_workshop_topics: true
+  field_panel_workshop_year: true
+  field_reading_list: true
+  field_s: true
+  field_session_track: true
+  field_slides_link: true
+  field_status: true
+  field_video_audio_recording: true

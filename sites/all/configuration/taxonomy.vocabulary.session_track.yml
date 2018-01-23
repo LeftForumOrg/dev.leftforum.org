@@ -1,0 +1,11 @@
+uuid: c7367467-f744-401c-b427-74ed731754e7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yvzELIEn6qp1Pe3ODth4bOG-scXBZiKpDtNBkCk3oE0
+name: 'Session Track'
+vid: session_track
+description: 'Different types of sessions. '
+hierarchy: 0
+weight: 0

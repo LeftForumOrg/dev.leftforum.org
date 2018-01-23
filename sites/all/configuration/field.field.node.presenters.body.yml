@@ -1,0 +1,24 @@
+uuid: 3fce4c9b-a1e7-4617-b591-a5085681ec5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.presenters
+  module:
+    - text
+_core:
+  default_config_hash: ChWmVHlVU23EPnm3uNolVR_eyglpx_mGWRI8oKZ_tCI
+id: node.presenters.body
+field_name: body
+entity_type: node
+bundle: presenters
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
