@@ -1,0 +1,13 @@
+name: 'Youtube Video'
+description: 'Provides Youtube Video content type and related configuration. Use the <i>youtube video</i> content type to store information related to a YouTube video and display such a video either in full, or as a thumbnail.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - views
+  - youtube

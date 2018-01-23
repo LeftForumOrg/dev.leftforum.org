@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_youtube_views
+    - node.type.youtube_video
+id: node.youtube_video.field_youtube_views
+field_name: field_youtube_views
+entity_type: node
+bundle: youtube_video
+label: Views
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
