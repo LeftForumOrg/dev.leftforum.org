@@ -14,6 +14,7 @@
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/adaptivetheme": "^3.0",
+        "drupal/admin_toolbar": "^1.22",
         "drupal/at_tools": "^3.1",
         "drupal/bootstrap": "^3.7",
         "drupal/config_update": "^1.5",
