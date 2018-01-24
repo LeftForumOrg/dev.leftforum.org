@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: presenters
+label: Presenters
+weight: 4
+is_admin: null
+permissions:
+  - 'create session content'

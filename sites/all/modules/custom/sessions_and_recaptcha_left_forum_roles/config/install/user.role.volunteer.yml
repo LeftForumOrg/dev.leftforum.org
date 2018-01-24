@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: volunteer
+label: Volunteer
+weight: 3
+is_admin: null
+permissions:
+  - 'view session revisions'

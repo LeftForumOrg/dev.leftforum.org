@@ -1,0 +1,17 @@
+bundle: sessions_and_recaptcha
+excluded:
+  - left_forum_.settings
+  - block.block.left_forum__account_menu
+  - block.block.left_forum__branding
+  - block.block.left_forum__breadcrumbs
+  - block.block.left_forum__content
+  - block.block.left_forum__footer
+  - block.block.left_forum__help
+  - block.block.left_forum__local_actions
+  - block.block.left_forum__local_tasks
+  - block.block.left_forum__login
+  - block.block.left_forum__main_menu
+  - block.block.left_forum__messages
+  - block.block.left_forum__search
+  - block.block.left_forum__tools
+required: true
